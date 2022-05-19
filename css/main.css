@@ -1,0 +1,71 @@
+.trybutton{
+    margin: 50px 0;
+    width: 200px;
+    height: 54px;
+    border: 4px solid rgb(235, 141, 0);
+    text-align: center;
+    line-height: 50px;
+    color: #c2bdbd;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: all 0.5s;
+}
+.trybutton:hover{
+    background-color: rgb(235, 141, 0);
+    color: rgb(46, 46, 46);
+}
+.button-link{
+    text-decoration: none;
+}
+.main_burger{
+    width: 82%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 45px auto;
+    animation-name: show;
+    animation-duration: 3s;
+}
+@keyframes show {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+
+    }
+}
+.main-div{
+    width: 561px;
+}
+.line{
+    background-color: rgb(235, 141, 0);
+    height: 4px;
+    width: 51%;
+    margin-bottom: 11px;
+    animation-name: line;
+    animation-duration: 1.5s;
+}
+.endline{
+    width: 92%;
+    margin-bottom: 0;
+    margin-top: 11px;
+    display: flex;
+    justify-content: end;
+}
+@keyframes line {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 51%;
+    }
+}
+.caption{
+    color: #c7c1c1;
+    font-weight: 900;
+    font-size: 53px;
+    text-transform: uppercase;
+    text-shadow: 3px 2px 0 #101010;
+
+}
