@@ -19,7 +19,7 @@ header{
 .numb{
     width: 25px;
     color: white;
-    background-color: rgb(235, 141, 0);
+    background-color: #eb8d00;
     border-radius: 50%;
     text-align: center;
     line-height: 23px;
@@ -62,7 +62,7 @@ header{
  
 }
 .nav_link, .nav_link_{
-    color: rgb(235, 141, 0);
+    color: #eb8d00;
     transition: 0.7s ease;
     text-decoration: none;
 
@@ -92,7 +92,7 @@ footer{
 }
 .footer_company_text{
     margin-bottom: 3%;
-    color: rgb(184, 184, 184);
+    color: #b8b8b8;
 }
 .footer_menu{
     margin-bottom: 8px;
