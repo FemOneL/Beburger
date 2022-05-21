@@ -56,9 +56,11 @@ header{
     gap: 60px;
 }
 .nav_branding{
-    color: rgb(235, 141, 0);
-    font-size: 2rem;
-    list-style-type: none;
+   color: rgb(235, 141, 0);
+  font-size: 2rem;
+  list-style-type: none;
+  text-shadow: 2px 2px rgb(105, 66, 8);
+  font-family: Arial, sans-serif;
  
 }
 .nav_link, .nav_link_{
@@ -116,8 +118,10 @@ footer{
 }
 .footer_contact_main_text{
     color: rgb(235, 141, 0);
-    margin-bottom: 10%;
-    font-size: 2rem;
+  margin-bottom: 10%;
+  font-size: 2rem;
+  text-shadow: 2px 2px rgb(105, 66, 8);
+  font-family: Arial, sans-serif;
 }
 .footer_contact_text{
     margin-bottom: 7%;
