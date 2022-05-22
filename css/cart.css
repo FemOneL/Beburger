@@ -20,20 +20,25 @@
 
 .general_h1{
     color: #b8b8b8;
-    margin-left: 10px;
 }
 
 .curr_price{
     color: #b8b8b8;
-    margin-left: 330px;
     
+}
+
+.burgers_div{
+    margin: 0 auto;
+    width: 500px;
+    height: 460px;
 }
 
 .in_general_div{
     margin: 0 auto;
     width: 500px;
     height: 45px;
-    margin-top: 500px;
+    
+    justify-content: space-between;
     margin-bottom: auto;
     display: flex;
 }
