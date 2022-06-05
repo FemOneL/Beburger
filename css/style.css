@@ -19,7 +19,7 @@ header{
 .numb{
     width: 25px;
     color: white;
-    background-color: #eb8d00;
+    background-color: rgb(235, 141, 0);
     border-radius: 50%;
     text-align: center;
     line-height: 23px;
@@ -56,15 +56,13 @@ header{
     gap: 60px;
 }
 .nav_branding{
-   color: rgb(235, 141, 0);
-  font-size: 2rem;
-  list-style-type: none;
-  text-shadow: 2px 2px rgb(105, 66, 8);
-  font-family: Arial, sans-serif;
+    color: rgb(235, 141, 0);
+    font-size: 2rem;
+    list-style-type: none;
  
 }
 .nav_link, .nav_link_{
-    color: #eb8d00;
+    color: rgb(235, 141, 0);
     transition: 0.7s ease;
     text-decoration: none;
 
@@ -94,7 +92,7 @@ footer{
 }
 .footer_company_text{
     margin-bottom: 3%;
-    color: #b8b8b8;
+    color: rgb(184, 184, 184);
 }
 .footer_menu{
     margin-bottom: 8px;
@@ -118,10 +116,8 @@ footer{
 }
 .footer_contact_main_text{
     color: rgb(235, 141, 0);
-  margin-bottom: 10%;
-  font-size: 2rem;
-  text-shadow: 2px 2px rgb(105, 66, 8);
-  font-family: Arial, sans-serif;
+    margin-bottom: 10%;
+    font-size: 2rem;
 }
 .footer_contact_text{
     margin-bottom: 7%;
@@ -200,4 +196,22 @@ main{
 .phone-info{
     color: #c2bdbd;
     font-size: 17px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(29, 28, 28);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(235, 141, 0);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(235, 141, 0);
 }
