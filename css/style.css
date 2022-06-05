@@ -119,6 +119,8 @@ footer{
     color: rgb(235, 141, 0);
     margin-bottom: 10%;
     font-size: 2rem;
+    text-shadow: 2px 2px rgb(105, 66, 8);
+    font-family: Arial, sans-serif;
 }
 .footer_contact_text{
     margin-bottom: 7%;
