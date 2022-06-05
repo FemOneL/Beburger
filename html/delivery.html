@@ -15,7 +15,7 @@
 	<header>
 		<div class="menu">
 			<nav class="navbar">
-				<h5 class="nav_branding"> <a href="index.html" class="nav_link_">THE BURGER</a></h5>
+				<h5 class="nav_branding"> <a href="index.html" class="nav_link_">BIG BURGER</a></h5>
 				<ul class="nav_menu">
 
 					<li class="nav_item"><a href="burgers.html" class="nav_link">Меню</a></li>
@@ -30,6 +30,7 @@
     <main>
         <div class="wrapper">
             <div class="form">
+                <h1 class = "header">Доставка</h1>
               <form name="reservationForm" id="form" class="form_body">
             
                   <div class="form_item">
@@ -54,6 +55,12 @@
                         <option value="therapist" >Картою курєру</option>
                         <option value="surgeon" >Готівкою</option>
                     </select>
+                </div>
+                <div class="form_item">
+                    <label for="formAdress" class="form_label">Промокод:</label>
+                    <input id="formAdress" type="text" name="adress" class="form_input " required placeholder="Введіть промокод">
+                </div>
+                    
 <!--                     
                         <div>
                           <input type="radio" id="contactChoice1"
@@ -85,12 +92,14 @@
         </div>
     </main>
     
-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2612879.9821710363!2d25.07849482545617!3d50.242618718493034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ceff1210cd95%3A0xdc70108c9f0af3be!2sThe%20Burger!5e0!3m2!1suk!2sua!4v1654187434826!5m2!1suk!2sua" width="1350" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <footer>
+<div class = "map_div">
+    <h2 class = "header2">Ви можете знайти нас на карті тут</h2>
+    <iframe class = "map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d160.83198985957173!2d24.03088738890117!3d49.83659792425258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6f2f20e75b%3A0x591276d0a6e04612!2sBig%20Burger!5e0!3m2!1sen!2sde!4v1654457728097!5m2!1sen!2sde" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<footer>
         <div class="footer">
            <div class="footer_contact">
-               <h5 class="footer_contact_main_text">THE BURGER</h5>
+               <h5 class="footer_contact_main_text">BIG BURGER</h5>
            </div>
            <div class="footer-info">
                <a class="list-item" href="index.html">Головна</a>
