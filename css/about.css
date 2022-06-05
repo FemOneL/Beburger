@@ -42,7 +42,7 @@
 
 .paragraph{
     color: #c7c1c1;
-    text-align: justify;
+    text-align: center;
     margin: 0 auto;
     width: 60%;
     font-size: 18px;
@@ -51,7 +51,22 @@
 .line_about{
     background-color: #653d00;
     height: 4px;
-    width: 24%;
-    margin-left: 343px;
+    width: 300px;
+    margin-left: 370px;
     margin-bottom: 50px;
+}
+.text{
+    text-shadow: 1px 2px 0 #a76222;
+}
+
+.text_end{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #c7c1c1;
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+    font-size: 18px;
+    text-shadow: 1px 2px 0 #a74c22;
+    font-size: 20px;
 }
