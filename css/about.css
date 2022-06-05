@@ -26,7 +26,7 @@
     color: #653d00;
     text-align: center;
     font-size: 60px;
-    margin-top: 100px;
+    margin-top: 44px;
     
     
 }
@@ -34,7 +34,7 @@
 .head_2title{
     color: #c7c1c1;
     text-align: center;
-    font-size: 20px;
+    font-size: 23px;
     margin-bottom: 30px;
     
     
@@ -42,7 +42,10 @@
 
 .paragraph{
     color: #c7c1c1;
-    text-align: center;
+    text-align: justify;
+    margin: 0 auto;
+    width: 60%;
+    font-size: 18px;
 }
 
 .line_about{
