@@ -56,10 +56,11 @@ header{
     gap: 60px;
 }
 .nav_branding{
-    color: rgb(235, 141, 0);
+      color: rgb(235, 141, 0);
     font-size: 2rem;
     list-style-type: none;
- 
+    text-shadow: 2px 2px rgb(105, 66, 8);
+    font-family: Arial, sans-serif;
 }
 .nav_link, .nav_link_{
     color: rgb(235, 141, 0);
