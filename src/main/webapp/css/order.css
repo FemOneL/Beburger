@@ -1,0 +1,11 @@
+.bill{
+    background-color: #201f1f;
+    border: 2px solid #eb8d00;
+    color: #eb8d00;
+    width: 500px;
+    height: 99%;
+    overflow: auto;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}

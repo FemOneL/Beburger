@@ -1,0 +1,221 @@
+@import url(fonts.css);
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+
+}
+.cart{
+    display: flex;
+
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.numb{
+    width: 25px;
+    color: white;
+    background-color: rgb(235, 141, 0);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 23px;
+    margin-left: 4px;
+
+}
+
+body{
+    background-color:#181818;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+header{
+    background-color: rgb(46, 46, 46);
+    box-shadow: 0px 0px 2px  black;
+    width: 100%;
+}
+
+.navbar{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+.uil-shopping-cart{
+    font-size: 20px;
+    margin-right: 3px;
+}
+.nav_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+.nav_branding{
+    color: rgb(235, 141, 0);
+    font-size: 2rem;
+    list-style-type: none;
+    text-shadow: 2px 2px rgb(105, 66, 8);
+    font-family: Arial, sans-serif;
+}
+.nav_link, .nav_link_{
+    color: rgb(235, 141, 0);
+    transition: 0.7s ease;
+    text-decoration: none;
+
+}
+/* .nav_link:hover{
+    color: white;
+} */
+.item-cart{
+    width: 126px;
+}
+footer{
+    height: 130px;
+    background-color: rgb(29, 28, 28);
+    box-shadow: 0px 0px 2px black;
+    width: 100%;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    width: 1400px;
+}
+.footer_company_name{
+    margin-left: 9%;
+    margin-bottom: 28px;
+}
+.footer_company_text{
+    margin-bottom: 3%;
+    color: rgb(184, 184, 184);
+}
+.footer_menu{
+    margin-bottom: 8px;
+}
+.footer_contact{
+    padding-left: 40px;
+
+}
+.footer_company_main_text{
+    color: rgb(0, 157, 219);
+    font-size: 2rem;
+    margin-bottom: 10%;
+}
+.footer_menu_main_text{
+    color: rgb(0, 157, 219);
+    margin-bottom: 10%;
+    font-size: 2rem;
+}
+.footer_nav_item{
+    margin-bottom: 10%;
+}
+.footer_contact_main_text{
+    color: rgb(235, 141, 0);
+    margin-bottom: 10%;
+    font-size: 2rem;
+    text-shadow: 2px 2px rgb(105, 66, 8);
+    font-family: Arial, sans-serif;
+}
+.footer_contact_text{
+    margin-bottom: 7%;
+}
+.footer_contact_link{
+    color: rgb(184, 184, 184);
+}
+.footer_contact_link:hover{
+    color: rgb(109, 171, 241);
+}
+.footer_nav_link{
+    color: rgb(184, 184, 184);
+}
+.footer_nav_link:hover{
+    color: white;
+}
+.menu_menu{
+    width: 80%;
+    padding-left: 37px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin: 0 auto;
+    background-color: rgb(46, 46, 46);
+    height: 200px;
+
+}
+.menu-caption{
+    font-size: 50px;
+    font-family: 'Roboto bold', sans-serif;
+    color: #c2bdbd;
+    text-transform: uppercase;
+}
+.menu-text{
+    color: #c2bdbd;
+    font-size: 20px;
+}
+main{
+    padding-top: 37px;
+    margin-top: 37px;
+}
+.copyright{
+    color: #c2bdbd;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 12px;
+}
+.list-item, .nav_link{
+    background-image: linear-gradient(90deg, rgb(255, 106, 0), rgb(235, 141, 0));
+    background-size: 0% 3px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    transition: background-size 300ms ease;
+}
+.list-item{
+    color: #c2bdbd;
+    font-size: 17px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+.list-item:hover{
+    background-size: 100% 3px;
+}
+.nav_link:hover{
+    background-size: 100% 3px;
+}
+.cart:hover{
+    background-size: 70% 3px;
+}
+.footer-info{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+.phone-info{
+    color: #c2bdbd;
+    font-size: 17px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(29, 28, 28);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(235, 141, 0);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(235, 141, 0);
+}

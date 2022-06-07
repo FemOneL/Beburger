@@ -1,0 +1,9 @@
+com\example\beburger\items\Cart.class
+com\example\beburger\servlets\AboutServlet.class
+com\example\beburger\servlets\PRG\CartRedirectorServlet.class
+com\example\beburger\servlets\CartServlet.class
+com\example\beburger\servlets\IndexServlet.class
+com\example\beburger\servlets\BurgerServlet.class
+com\example\beburger\servlets\DeliveryServlet.class
+com\example\beburger\servlets\PRG\BurgerRedirectorServlet.class
+com\example\beburger\items\Burgers.class
