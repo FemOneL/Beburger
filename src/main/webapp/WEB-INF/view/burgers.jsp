@@ -678,6 +678,11 @@
             </div>
         </section>
     </section>
+    </section>
+    <div class="additional">*Є можливість заміни інгредієнтів в складі бургера. Уточнюйте інформацію в оператора під час
+        оформлення замовлення!
+    </div>
+    </section>
 </main>
 <footer>
     <div class="footer">
